@@ -1,4 +1,4 @@
-# TISS Hub – Automação e Integração para Operadoras de Saúde
+# TISS Hub – Projeto de Estudo e Implementação do Padrão TISS
 
 ## Sobre o Projeto
 
