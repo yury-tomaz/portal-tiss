@@ -1,26 +1,30 @@
-# Portal TISS
+# TISS Hub – Automação e Integração para Operadoras de Saúde
 
 ## Sobre o Projeto
 
-O **Portal TISS** é um projeto de estudo e exploração do padrão de comunicação TISS, com o objetivo de automatizar processos e propor soluções robustas para operadoras de saúde. A plataforma busca facilitar a integração e gerenciamento de processos essenciais, como:
+O **TISS Hub** é um projeto de estudo e implementação do padrão TISS (Troca de Informações na Saúde Suplementar), estabelecido pela ANS (Agência Nacional de Saúde Suplementar). O objetivo é explorar e desenvolver soluções que automatizem a comunicação entre operadoras de planos de saúde e prestadores de serviços, garantindo conformidade com as normas regulatórias e eficiência na gestão dos processos administrativos.
 
-- Autorizações de procedimentos
-- Faturamento
-- Geração e processamento de guias
-- Execução de lotes
-- Integração com padrões TISS
+O projeto busca estruturar um ecossistema para facilitar a troca padronizada de informações, abrangendo:
+
+- **Autorização de procedimentos**: Processamento e validação de solicitações de atendimento médico.
+- **Faturamento eletrônico**: Emissão e processamento automatizado de contas médicas.
+- **Geração e transmissão de guias TISS**: Implementação do padrão obrigatório para a troca de informações.
+- **Gestão de lotes de atendimento**: Organização e envio de múltiplas solicitações dentro do padrão estabelecido.
+- **Conformidade com padrões TISS**: Garantia de compatibilidade com os requisitos técnicos e regulatórios exigidos pela ANS.
 
 ## Objetivo
 
-O objetivo principal do **Portal TISS** é oferecer um estudo aprofundado e uma base sólida para a implementação de soluções eficientes para operadoras de saúde, garantindo conformidade com as regulamentações da ANS e explorando formas de otimizar o fluxo de trabalho.
+O **TISS Hub** tem como foco principal criar uma base estruturada para entender e otimizar os fluxos de comunicação no setor da saúde suplementar. A proposta é oferecer um ambiente onde operadoras possam explorar soluções que reduzam burocracias, melhorem a interoperabilidade e garantam maior transparência nos processos de autorização e faturamento.
+
+Além disso, este projeto visa propor ferramentas de código aberto que possam ser utilizadas e aprimoradas pela comunidade, incentivando a inovação no setor.
 
 ## Status do Projeto
 
-Atualmente, o projeto está em sua fase inicial, com definição das stacks tecnológicas e arquitetura do sistema em andamento. Qualquer contribuição ou sugestão é bem-vinda.
+O projeto está em fase inicial, com definição das stacks tecnológicas e estruturação da arquitetura do sistema. Atualmente, estamos analisando as melhores abordagens para implementação e integração com os padrões exigidos pela ANS.
 
 ## Como Contribuir
 
-Se você deseja contribuir para o desenvolvimento deste projeto, em breve disponibilizaremos um guia com os requisitos e diretrizes para contribuição.
+Se você deseja contribuir para o desenvolvimento deste projeto, em breve disponibilizaremos um guia com os requisitos e diretrizes para colaboração. Sugestões e feedbacks também são bem-vindos.
 
 ---
 
