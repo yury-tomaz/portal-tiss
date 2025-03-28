@@ -1,0 +1,14 @@
+@startuml component-diagram-template
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+Container_Boundary(c1, "Nome do Sistema") {
+    Component(c2, "Nome do Componente 1", "Tecnologia", "Descrição do Componente 1")
+    Component(c3, "Nome do Componente 2", "Tecnologia", "Descrição do Componente 2")
+    Component(c4, "Nome do Componente 3", "Tecnologia", "Descrição do Componente 3")
+}
+
+Rel(c2, c3, "Descrição da Relação", "Protocolo/Tecnologia")
+Rel(c2, c4, "Descrição da Relação", "Protocolo/Tecnologia")
+Rel(c3, c4, "Descrição da Relação", "Protocolo/Tecnologia")
+
+@enduml

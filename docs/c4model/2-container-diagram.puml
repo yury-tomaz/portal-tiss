@@ -1,0 +1,18 @@
+@startuml container-diagram-template
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(user, "Nome do Usuário", "Descrição do Usuário")
+
+System_Boundary(c1, "Nome do Sistema") {
+    Container(webApp, "Nome do Contêiner 1", "Tecnologia", "Descrição do Contêiner 1")
+    Container(spa, "Nome do Contêiner 2", "Tecnologia", "Descrição do Contêiner 2")
+    Container(api, "Nome do Contêiner 3", "Tecnologia", "Descrição do Contêiner 3")
+    ContainerDb(database, "Nome do Banco de Dados", "Tecnologia", "Descrição do Banco de Dados")
+}
+
+Rel(user, webApp, "Descrição da Relação", "Protocolo/Tecnologia")
+Rel(webApp, spa, "Descrição da Relação", "Protocolo/Tecnologia")
+Rel(spa, api, "Descrição da Relação", "Protocolo/Tecnologia")
+Rel(api, database, "Descrição da Relação", "Protocolo/Tecnologia")
+
+@enduml

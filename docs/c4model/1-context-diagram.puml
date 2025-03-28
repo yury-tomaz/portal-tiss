@@ -1,0 +1,10 @@
+@startuml context-diagram-template
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+Person(person, "Nome da Pessoa", "Descrição da Pessoa")
+
+System(system, "Nome do Sistema", "Descrição do Sistema")
+
+Rel(person, system, "Descrição da Relação")
+
+@enduml
